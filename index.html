@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <script src="https://kit.fontawesome.com/21eb2fbf35.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <H1>Churrascômetro</H1>
+    </header>
+    <div class="image">
+
+    </div>
+
+    <section>
+        <div id="inputs">
+            <div>
+                <h2>Insira os dados para calcular as quantidades necessárias: </h2>
+            </div>
+            <label class="label-input"for="quantAdult"><i class="fas fa-users icon-modify"></i><input type="number" name="quantAdult" id="quantAdult" placeholder="Quantidade de adultos"></label>
+            <label class="label-input"for="quantCriancas"><i class="fas fa-baby icon-modify"></i><input type="number" name="quantCriancas" id="quantCriancas" placeholder="Quantidade de crianças"></label>
+            <label class="label-input"for="horas"><i class="far fa-clock icon-modify"></i><input type="number" name="horas" id="horas" placeholder="Horas de duração"></label>
+
+            <button onclick="calcular()">Calcular</button>
+
+            <div id="resultado">
+                   
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

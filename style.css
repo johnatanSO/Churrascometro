@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#icon{
+    border: solid 5px greenyellow 
+}
+h2{
+    font-size:1rem;
+    margin-bottom: 5px;
+    font-weight:400
+}
+.image{
+    
+}
+header {
+    background-color: rgb(255, 94, 0);
+    padding: 10px;
+    letter-spacing: 0.2rem;
+    font-size:2rem;
+    text-align: center;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://blogs.sl.pt/cloud/thumb/0fbcec80426f8ffbc7f7531d3987a321/ele/2020/emerson-vieira-lanootd2FcU-unsplash.jpg?size=xl');
+    background-repeat: no-repeat;
+    background-color: rgb(16, 16, 16);   
+}
+section{
+    background-color: rgba(208, 208, 208, 0.693);
+    padding: 20px;
+    max-width: 300px;
+    margin:auto;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 15px;
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+#inputs{
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#inputs input{
+    height:40px;
+    border: none;
+    outline: 0;
+    width:100%;
+    background-color: #ecf0f1;
+    border-radius:7px;
+    font-size: 1rem;
+}
+.label-input{
+    background-color: #ecf0f1;
+    display:flex;
+    align-items: center;
+    margin: 3px;
+    border-radius:7px;
+}
+.icon-modify{
+    padding: 0 8px;
+    color: #7f8c8d;
+}
+button{
+    border-radius:7px;
+    background-color: rgb(255, 94, 0);
+    height:40px;
+    border: solid 1px rgb(255, 94, 0);
+    width: 96%;
+    margin: 20px auto;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    font-weight: 600;
+    color:rgb(92, 35, 0);
+    font-size: 1rem;
+}
+button:hover{
+    background-color: #ecf0f1;
+    border: solid 1px rgb(255, 94, 0);
+    color:rgb(255, 94, 0);
+}
+#resultado{
+    background-color: rgb(255, 94, 0);
+    width: 300px;
+    display: flex;  
+    margin-top: 60px; 
+    border-radius: 10px; 
+}
+#secondP{
+    border-left: solid 1px rgb(169, 62, 0);
+    border-right:solid 1px rgb(169, 62, 0);
+}
+p{
+    padding:10px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    letter-spacing:1px;
+    color:rgb(89, 35, 2);
+    z-index: 20;
+    font-size: 1rem;
+}
+.icons{
+    font-size:50px;
+    position:absolute;
+    top: 475px;
+    margin-left: 20px;
+    color:rgba(169, 62, 0, 0.419);
+    z-index: -10;
+}
